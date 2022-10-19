@@ -1,0 +1,97 @@
+body {
+	background-color: #EEF1FF;
+	color: rgb(24, 39, 71);
+	font-family: 'Alkalami', serif;
+	font-size: 16px;
+}
+
+h1 {
+	    color: #eded75;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 800;
+    letter-spacing: 10px;
+    font-size: 32px;
+}
+
+h2 {
+	    color: rgb(100, 126, 104);
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    font-size: 24px;
+}
+
+a {text-decoration: none；
+	color: #371273;
+	font-weight: bolder;
+}
+a:hover {
+	color: black;
+}
+
+#leader {
+	border-radius: 1000px;
+	width: 150px;
+	box-shadow: 10px 10px 5px black;
+	border: 5px blue;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 700px) {
+	.container {
+		width:600px;
+	}
+}
+
+.element-design {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30 px rgba(0,0,0,0,1);
+	margin: 20px 0px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #647E68 ;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 50px
+	color: rgb(230, 230, 230);
+}
+
+.list-horizontal i:hover {
+	font-size: 50px;
+	color: black;
+}
+
+ 
+
+#introduction p {
+	margin-bottom: 40px;
+
+}
